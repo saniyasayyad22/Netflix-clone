@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background-color: black;
+}
+.main{
+background-image: url("NETFLIX/Image/imagenetfix_files/background.png.jpg");
+height: 800px;
+width: 1550px;
+position: relative;
+
+}
+.main nav{
+display: flex;
+justify-content: space-around;
+
+}
+.main .box{
+height: 800px;
+width: 1550px;
+background-color: black;
+filter: opacity(0.5);
+position: absolute;   
+top: 0;
+
+}
+nav img{
+position: relative;
+z-index: 10;
+}
+.btn{
+margin: 20px 10px;
+border: 1px solid rgb(123, 118, 118);
+border-radius: 7px;
+padding: 10px 30px ;
+font-weight: 400;
+background-color: rgba(248, 243, 243, 0.021);
+color:white;
+font-size: large;
+cursor: pointer;
+position: relative;
+z-index: 10;
+
+}  
+.btn2{
+padding: 10px 20px;
+background-color: red;
+font-size: medium;
+border: 2px solid white dotted;
+}
+.hero{
+color: white;
+margin: 150px;
+text-align: center;
+position: relative;
+z-index: 10;
+line-height: 2;
+}
+.hero> :nth-child(1){
+font-family: 'Poppins', sans-serif;
+font-size: 48px;
+}
+.hero> :nth-child(2){
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+}
+.hero> :nth-child(3){
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+}
+.button1{
+border: 1px solid gray;
+font-size: medium;
+background-color: rgba(248, 243, 243, 0.021);
+padding: 10px 200px 10px 5px;
+border-radius: 7px;
+
+}
+.button1 input{
+text-decoration: none;
+font-size: 20px;
+color: white;
+background-color: rgba(248, 243, 243, 0.021);
+border: 1px solid   rgba(248, 243, 243, 0.021);
+
+
+}
+.button2{
+border: 1px solid gray;
+border-radius: 7px;
+background-color: red;
+font-size: larger;
+font-weight: 700;
+padding: 15px 30px ;
+color: white;
+}
+.button{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+position: relative;
+z-index: 10;
+border-radius: 7px;
+cursor: pointer;
+}
+.separation{
+background-color: rgb(55, 50, 50);
+height: 10px;
+width: 1550px;
+}
+.first{
+color: white;
+display: flex;
+margin: 120px 100px ;
+justify-content: center;
+align-items: center;
+max-width:70vw;
+margin: auto;
+}
+.secimg{
+position: relative;
+
+}
+.secimg img{
+position: relative;
+z-index: 10;
+}
+.secimg video{
+
+margin-top: 90px;
+position: absolute;
+right: 80px;
+}
+.text{
+display: flex;
+flex-direction: column;
+}
+.text>:nth-child(1){
+font-weight: bolder;
+font-size: 48px;
+}
+.text>:nth-child(2){
+
+font-size: 24px;
+
+}
+.text2{
+display: flex;
+flex-direction: column;}
+.text2>:nth-child(1){
+font-weight: bolder;
+font-size: 48px;
+}
+.text2>:nth-child(2){
+
+font-size: 24px;
+
+}
+.third img{
+width: 555px;
+}
+.third video{
+width: 350px;
+margin-top:30px ;
+left: 100px;
+}
+.faqbox{
+color: white;
+text-align: center;
+margin: 50px ;
+font-size: 20px;
+font-weight: bolder;
+}
+.faq{
+max-width: 900px;
+margin: auto;
+margin-top: 10px;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+background-color: rgb(46, 43, 43);
+font-weight: lighter;
+cursor: pointer;
+
+}
+.faq:hover{
+background-color: rgb(58, 55, 55) ;
+}
+.last{
+color: white;
+margin: 10px 450px;
+font-size: larger;
+}
+.footer{
+color: white;
+display: flex;
+row-gap: 20px;
+column-gap: 100px;
+justify-content: center;
+align-items: center;
+margin: auto;
+font-size: larger; 
+}
+
+footer .Question{
+color: white;
+margin: 50px ;
+padding: 10px 400px;
+margin-bottom: 10px;
+}
+.one li{
+max-height: 400px;
+text-decoration:none;
+}
+
+
+
+
+
+
+
+
